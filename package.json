@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "parcel index.html",
-    "build": "parcel build --public-url /css-secrets --out-dir docs",
+    "build": "parcel build index.html --public-url /css-secrets --out-dir docs",
     "commit": "git-cz",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
