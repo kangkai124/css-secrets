@@ -22,6 +22,8 @@
   "license": "MIT",
   "devDependencies": {
     "commitizen": "^4.0.3",
-    "cz-conventional-changelog": "^3.0.2"
+    "cssnano": "^4.1.10",
+    "cz-conventional-changelog": "^3.0.2",
+    "less": "^3.9.0"
   }
 }
