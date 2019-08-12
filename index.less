@@ -173,3 +173,35 @@ span {
     background-position: calc(~'100% - 20px') calc(~'100% - 20px');
   }
 }
+
+.div3-wrap {
+  display: flex;
+  justify-content: space-around;
+
+  div {
+    width: 240px;height: 120px;
+    background: #d6a7ba;
+  }
+  
+  .ellipse:nth-of-type(1) {
+    border-radius: 20% 50%;
+  }
+
+  .ellipse:nth-of-type(2) {
+    border-radius: ~'50% / 20%';
+  }
+
+   .ellipse:nth-of-type(3) {
+    border-radius: ~'50% / 70% 70% 0 0';
+  }
+
+  //  .ellipse:nth-of-type(4) {
+  //   border-radius: ~'50% / 100% 100% 0 0';
+  // }
+
+  .egg {
+    width: 120px;height: 160px;
+    background: #c74a7d;
+    border-radius: ~'60px / 100px 100px 60px 60px';
+  }
+}
